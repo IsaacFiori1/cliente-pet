@@ -1,5 +1,8 @@
 package br.com.petz.Clientepet.cliente.application.service;
 
-public interface ClienteService {
+import br.com.petz.Clientepet.cliente.application.api.ClienteRequest;
+import br.com.petz.Clientepet.cliente.application.api.ClienteResponse;
 
+public interface ClienteService {
+	ClienteResponse criaCliente(ClienteRequest clienteRequest);
 }
